@@ -1,8 +1,6 @@
 
 # Specification 'Web of Things (WoT) Architecture'
 
-This is the frozen TAG review version and no changes will be made.
-
 Since the initial submission of the architecture specification to TAG, 
 there were several terminology updates, which the architecture group 
 considers important to be part of the TAG review.
