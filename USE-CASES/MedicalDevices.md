@@ -26,13 +26,13 @@ Taki Kamiya
 
 ### Target Users
 
-- device owners
-- device user
-- cloud provider
-- service provider
+- device owners (hospitals)
+- device user (clinicians and biomedical engineering staff)
 - device manufacturer
 - gateway manufacturer
+  - Gateways for integrating fragmented hospital networks.
 - identity provider
+  - Device authentication, authorization for use in given environments.
 
 ### Motivation:
 
@@ -40,7 +40,14 @@ Preventable medical errors may account for more than 100,000 deaths per year in 
 
 ### Expected Devices:
 
-<List the target devices, e.g. as a sensor, solar panel, air conditioner>
+- respiratory monitor
+- pulse oximeter
+- infusion pump
+- EEG (electroencephalography) sensor
+- ventilator
+- X-ray machine
+- Intracranial Pressure Monitor
+- tilt sensor (e.g. for beds)
 
 ### Expected Data:
 
@@ -66,7 +73,7 @@ The United States Food and Drug Administration (FDA) classifies new hazards that
 
 #### Variants:
 
-US military developed ONR SBIR (Automated Critical Care System Prototype), and found those issues.
+US military developed ONR SBIR (Automated Critical Care System Prototype), and found the following issues. See [Medical Autonomous Systems for Improving Healthcare Delivery](https://www.nitrd.gov/nitrdgroups/images/5/58/HITRD-2019-07-Loretta-Schlachta-Fairchild.pdf) (July 2019).
 
 - No plug and play, i.e. cannot swap O2 Sat with another manufacturer.
 - No standardization of data outputs for devices to interoperate.
@@ -107,4 +114,3 @@ MDIRA Version 1.0 provides requirements and implementation guidance for MDIRA-co
 Johns Hopkins University Applied Physics Laboratory (JHU-APL) lead a research project in collaboration with US military to develop a framework of autonomous / closed loop prototypes for military health care which are dual use for the civilian healthcare system.
 
 ### Comments:
-
